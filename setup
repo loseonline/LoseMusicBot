@@ -76,7 +76,7 @@
  repo(){ 
          # Get git repo if the installer is runned standalone 
          [[ ! "LoseMusicBot" == $(basename -s .git `git config --get remote.origin.url`) ]] && 
-         git clone https://github.com/usermusti/LøseMusicBot &&  cd LoseMusicBot 
+         git clone https://github.com/usermusti/LoseMusicBot &&  cd LoseMusicBot 
  } 
   
   
@@ -90,7 +90,7 @@
  } 
   
  clear 
- pprint "Welcome to Yukki Music Bot Setup Installer\n\n" 
+ pprint "Welcome to Lose Music Bot Setup Installer\n\n" 
  pprint "If you see any error during Installation Process, Please refer to these files for logs: " 
  pprint "\nFor node js errors , Checkout nodelog.txt" 
  pprint "\nFor pypi packages errors , Checkout pypilog.txt" 
